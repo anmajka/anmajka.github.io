@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(207, 209, 182);
   margin: 0;
@@ -8,6 +12,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
+  position: fixed;
+  width: calc(100% - 40px);
+  top: 0;
+  background: rgb(244, 239, 199);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .navUl {
   list-style: none;
@@ -51,4 +61,10 @@ footer {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#aboutme,
+#mission,
+#contact {
+  padding-top: calc(1.5rem + 30px);
 }
