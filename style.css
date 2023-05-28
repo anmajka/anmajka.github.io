@@ -4,14 +4,12 @@ body {
   font-family: "Cormorant", serif;
 }
 nav {
-  border: 2px dashed red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
 }
 .navUl {
-  border: 2px dashed blueviolet;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -21,7 +19,6 @@ nav {
   margin-left: 20px;
 }
 .bodyHeader {
-  border: 2px dashed green;
   text-align: center;
 }
 img {
@@ -35,4 +32,14 @@ p {
 }
 .bodyHeader p {
   padding: 0 10%;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+main,
+article {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2vw;
 }
