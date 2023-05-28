@@ -1,3 +1,21 @@
 body {
-  background: rgb(105, 75, 116);
+  background: rgb(207, 209, 182);
+  margin: 0;
+}
+nav {
+  border: 2px dashed red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+.navUl {
+  border: 2px dashed blueviolet;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navUl li {
+  margin-left: 20px;
 }
