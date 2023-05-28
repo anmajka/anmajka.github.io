@@ -43,3 +43,12 @@ article {
   margin: auto;
   padding: 2vw;
 }
+footer {
+  background: rgb(158, 145, 183);
+  padding: 1vw;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
